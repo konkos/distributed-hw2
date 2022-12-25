@@ -1,16 +1,14 @@
 package gr.uom.ergasia5soap.bank;
 
 import io.spring.guides.gs_producing_web_service.Currency;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class BankAccount {
